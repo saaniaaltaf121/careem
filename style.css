@@ -1,0 +1,292 @@
+#navbarScroll ul li a {
+    color: black;
+}
+
+
+
+#navbarScroll ul li a:hover {
+   color: #00e784;
+    border: 0px solid white;
+   text-decoration: underline;
+
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    margin: 10px auto;
+    width: 100%;
+
+
+}
+
+.box {
+    border: 2px solid transparent;
+    padding: 30px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: #0000FF;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 30%;
+
+}
+
+
+.box2 {
+    border: 2px solid transparent;
+    padding: 30px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: #b6d8a0;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    width: 30%;
+
+}
+
+.box3 {
+    border: 2px solid transparent;
+    padding: 30px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: #a24bca;
+    color: rgb(0, 0, 0);
+    width: 30%;
+
+}
+
+.box4 {
+    border: 2px solid transparent;
+    padding: 30px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: #131E3A;
+    color: rgb(0, 0, 0);
+    width: 30%;
+
+}
+
+.box,
+.box2,
+.box3,
+.box4 {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+
+}
+
+.box li {
+    text-decoration: none;
+    text-align: justify;
+}
+
+.border1 {
+    background-color: green;
+}
+
+#carouselExampleSlidesOnly {
+
+    width: 100%;
+    height: 800px;
+}
+
+.carousel-inner {
+
+    height: 50%;
+    background: linear-gradient(100.88deg, #00493e 29.03%, #00e784 154.38%);
+    border-radius: 40px;
+
+}
+
+.left {
+    margin: 5px;
+    padding: 50px;
+    border-radius: 40px;
+}
+
+h2 {
+    color: #fff;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 30px
+}
+
+.two {
+    float: right;
+    padding-bottom: 60%;
+    padding-left: 100px;
+
+}
+
+.about {
+
+    padding: 50px;
+    justify-content: space-between
+}
+
+.three {
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+    padding-bottom: 40px;
+}
+
+.text {
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.heading h1{
+    font-weight: bolder;
+    color: black;
+
+}
+
+
+
+.img {
+    float: right;
+    width: 50px;
+    padding-left: 60px;
+
+    padding-bottom: 80px;
+    
+
+}
+
+.cars {
+    background: linear-gradient(100.88deg, #00493e 29.03%, #00e784 154.38%);
+    padding: 20px;
+    padding-bottom: 50px;
+
+    justify-content: space-between;
+    height: 55%;
+
+}
+
+.three2 {
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+
+    border-radius: 30px;
+
+}
+
+.img2 {
+
+    display: flex;
+
+
+}
+
+.text2 {
+    width: 50%;
+    padding-left: 50px;
+    float: right;
+    padding-right: 60px;
+
+
+}
+
+.car {
+    
+    padding: 20px;
+    padding-bottom: 20px;
+
+    justify-content: space-between;
+    height: 50%;
+
+}
+
+.three0 {
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+
+    border-radius: 30px;
+    
+
+}
+
+.img0 {
+
+    display: flex;
+
+
+}
+
+.text0 {
+    width: 50%;
+    padding-left: 10%;
+    float: right;
+    padding-right: 10px; 
+    
+
+
+}
+
+.blog1{
+    width: 100%;
+    border: 1px solid transparent;
+    margin:  auto ;
+    padding: 20px; 
+    
+    justify-content: center;
+
+}
+
+.card{
+    padding: 10px;
+    border:1px solid transparent ;
+     background-color: #00e784; 
+    color: black;
+    border-radius: 30px;
+    margin: 10px;
+}
+.ourblog{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+} 
+
+section{
+    padding: 80px 10px  ;
+    width: 100%;
+    /* height: 100vh; */
+}
+.footer{
+    display:flex ;
+    gap: 3rem;
+}
+.footer-content h3{
+    color: #00493e;
+    margin-bottom: 1.5rem;
+    margin-left: 28px;
+    
+}
+.footer-content li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.footer-content li a{
+    display: block;
+    color: black;
+    transition: all .40s ease;
+    text-decoration: none;
+    
+}
+.footer-content li a:hover{
+    color:#00e784;
+    border: 0px solid transparent;
+   text-decoration: underline; 
+   
+}
